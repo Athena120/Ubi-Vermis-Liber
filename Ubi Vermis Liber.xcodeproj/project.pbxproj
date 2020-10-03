@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B59A5C22528D90200DC711A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59A5C12528D90200DC711A /* AppDelegate.swift */; };
+		9B59A5C42528D90200DC711A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59A5C32528D90200DC711A /* SceneDelegate.swift */; };
+		9B59A5C62528D90200DC711A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59A5C52528D90200DC711A /* ContentView.swift */; };
+		9B59A5C82528D90300DC711A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B59A5C72528D90300DC711A /* Assets.xcassets */; };
+		9B59A5CB2528D90300DC711A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B59A5CA2528D90300DC711A /* Preview Assets.xcassets */; };
+		9B59A5CE2528D90300DC711A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B59A5CC2528D90300DC711A /* LaunchScreen.storyboard */; };
+		9B59A5D92528D90300DC711A /* Ubi_Vermis_LiberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59A5D82528D90300DC711A /* Ubi_Vermis_LiberTests.swift */; };
+		9B59A5E42528D90300DC711A /* Ubi_Vermis_LiberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59A5E32528D90300DC711A /* Ubi_Vermis_LiberUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B59A5D52528D90300DC711A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B59A5B62528D90200DC711A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B59A5BD2528D90200DC711A;
+			remoteInfo = "Ubi Vermis Liber";
+		};
+		9B59A5E02528D90300DC711A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B59A5B62528D90200DC711A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B59A5BD2528D90200DC711A;
+			remoteInfo = "Ubi Vermis Liber";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B59A5BE2528D90200DC711A /* Ubi Vermis Liber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ubi Vermis Liber.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B59A5C12528D90200DC711A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B59A5C32528D90200DC711A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9B59A5C52528D90200DC711A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B59A5C72528D90300DC711A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B59A5CA2528D90300DC711A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B59A5CD2528D90300DC711A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B59A5CF2528D90300DC711A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B59A5D42528D90300DC711A /* Ubi Vermis LiberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ubi Vermis LiberTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B59A5D82528D90300DC711A /* Ubi_Vermis_LiberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ubi_Vermis_LiberTests.swift; sourceTree = "<group>"; };
+		9B59A5DA2528D90300DC711A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B59A5DF2528D90300DC711A /* Ubi Vermis LiberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ubi Vermis LiberUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B59A5E32528D90300DC711A /* Ubi_Vermis_LiberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ubi_Vermis_LiberUITests.swift; sourceTree = "<group>"; };
+		9B59A5E52528D90300DC711A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B59A5BB2528D90200DC711A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B59A5D12528D90300DC711A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B59A5DC2528D90300DC711A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B59A5B52528D90200DC711A = {
+			isa = PBXGroup;
+			children = (
+				9B59A5C02528D90200DC711A /* Ubi Vermis Liber */,
+				9B59A5D72528D90300DC711A /* Ubi Vermis LiberTests */,
+				9B59A5E22528D90300DC711A /* Ubi Vermis LiberUITests */,
+				9B59A5BF2528D90200DC711A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B59A5BF2528D90200DC711A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B59A5BE2528D90200DC711A /* Ubi Vermis Liber.app */,
+				9B59A5D42528D90300DC711A /* Ubi Vermis LiberTests.xctest */,
+				9B59A5DF2528D90300DC711A /* Ubi Vermis LiberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B59A5C02528D90200DC711A /* Ubi Vermis Liber */ = {
+			isa = PBXGroup;
+			children = (
+				9B59A5C12528D90200DC711A /* AppDelegate.swift */,
+				9B59A5C32528D90200DC711A /* SceneDelegate.swift */,
+				9B59A5C52528D90200DC711A /* ContentView.swift */,
+				9B59A5C72528D90300DC711A /* Assets.xcassets */,
+				9B59A5CC2528D90300DC711A /* LaunchScreen.storyboard */,
+				9B59A5CF2528D90300DC711A /* Info.plist */,
+				9B59A5C92528D90300DC711A /* Preview Content */,
+			);
+			path = "Ubi Vermis Liber";
+			sourceTree = "<group>";
+		};
+		9B59A5C92528D90300DC711A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9B59A5CA2528D90300DC711A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9B59A5D72528D90300DC711A /* Ubi Vermis LiberTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B59A5D82528D90300DC711A /* Ubi_Vermis_LiberTests.swift */,
+				9B59A5DA2528D90300DC711A /* Info.plist */,
+			);
+			path = "Ubi Vermis LiberTests";
+			sourceTree = "<group>";
+		};
+		9B59A5E22528D90300DC711A /* Ubi Vermis LiberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B59A5E32528D90300DC711A /* Ubi_Vermis_LiberUITests.swift */,
+				9B59A5E52528D90300DC711A /* Info.plist */,
+			);
+			path = "Ubi Vermis LiberUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B59A5BD2528D90200DC711A /* Ubi Vermis Liber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B59A5E82528D90300DC711A /* Build configuration list for PBXNativeTarget "Ubi Vermis Liber" */;
+			buildPhases = (
+				9B59A5BA2528D90200DC711A /* Sources */,
+				9B59A5BB2528D90200DC711A /* Frameworks */,
+				9B59A5BC2528D90200DC711A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ubi Vermis Liber";
+			productName = "Ubi Vermis Liber";
+			productReference = 9B59A5BE2528D90200DC711A /* Ubi Vermis Liber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B59A5D32528D90300DC711A /* Ubi Vermis LiberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B59A5EB2528D90300DC711A /* Build configuration list for PBXNativeTarget "Ubi Vermis LiberTests" */;
+			buildPhases = (
+				9B59A5D02528D90300DC711A /* Sources */,
+				9B59A5D12528D90300DC711A /* Frameworks */,
+				9B59A5D22528D90300DC711A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B59A5D62528D90300DC711A /* PBXTargetDependency */,
+			);
+			name = "Ubi Vermis LiberTests";
+			productName = "Ubi Vermis LiberTests";
+			productReference = 9B59A5D42528D90300DC711A /* Ubi Vermis LiberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B59A5DE2528D90300DC711A /* Ubi Vermis LiberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B59A5EE2528D90300DC711A /* Build configuration list for PBXNativeTarget "Ubi Vermis LiberUITests" */;
+			buildPhases = (
+				9B59A5DB2528D90300DC711A /* Sources */,
+				9B59A5DC2528D90300DC711A /* Frameworks */,
+				9B59A5DD2528D90300DC711A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B59A5E12528D90300DC711A /* PBXTargetDependency */,
+			);
+			name = "Ubi Vermis LiberUITests";
+			productName = "Ubi Vermis LiberUITests";
+			productReference = 9B59A5DF2528D90300DC711A /* Ubi Vermis LiberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B59A5B62528D90200DC711A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Estella Newton";
+				TargetAttributes = {
+					9B59A5BD2528D90200DC711A = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					9B59A5D32528D90300DC711A = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 9B59A5BD2528D90200DC711A;
+					};
+					9B59A5DE2528D90300DC711A = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 9B59A5BD2528D90200DC711A;
+					};
+				};
+			};
+			buildConfigurationList = 9B59A5B92528D90200DC711A /* Build configuration list for PBXProject "Ubi Vermis Liber" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B59A5B52528D90200DC711A;
+			productRefGroup = 9B59A5BF2528D90200DC711A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B59A5BD2528D90200DC711A /* Ubi Vermis Liber */,
+				9B59A5D32528D90300DC711A /* Ubi Vermis LiberTests */,
+				9B59A5DE2528D90300DC711A /* Ubi Vermis LiberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B59A5BC2528D90200DC711A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B59A5CE2528D90300DC711A /* LaunchScreen.storyboard in Resources */,
+				9B59A5CB2528D90300DC711A /* Preview Assets.xcassets in Resources */,
+				9B59A5C82528D90300DC711A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B59A5D22528D90300DC711A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B59A5DD2528D90300DC711A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B59A5BA2528D90200DC711A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B59A5C22528D90200DC711A /* AppDelegate.swift in Sources */,
+				9B59A5C42528D90200DC711A /* SceneDelegate.swift in Sources */,
+				9B59A5C62528D90200DC711A /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B59A5D02528D90300DC711A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B59A5D92528D90300DC711A /* Ubi_Vermis_LiberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B59A5DB2528D90300DC711A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B59A5E42528D90300DC711A /* Ubi_Vermis_LiberUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B59A5D62528D90300DC711A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B59A5BD2528D90200DC711A /* Ubi Vermis Liber */;
+			targetProxy = 9B59A5D52528D90300DC711A /* PBXContainerItemProxy */;
+		};
+		9B59A5E12528D90300DC711A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B59A5BD2528D90200DC711A /* Ubi Vermis Liber */;
+			targetProxy = 9B59A5E02528D90300DC711A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B59A5CC2528D90300DC711A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B59A5CD2528D90300DC711A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B59A5E62528D90300DC711A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B59A5E72528D90300DC711A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B59A5E92528D90300DC711A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ubi Vermis Liber/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Ubi Vermis Liber/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Estella.Ubi-Vermis-Liber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B59A5EA2528D90300DC711A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ubi Vermis Liber/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Ubi Vermis Liber/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Estella.Ubi-Vermis-Liber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B59A5EC2528D90300DC711A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ubi Vermis LiberTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Estella.Ubi-Vermis-LiberTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ubi Vermis Liber.app/Ubi Vermis Liber";
+			};
+			name = Debug;
+		};
+		9B59A5ED2528D90300DC711A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ubi Vermis LiberTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Estella.Ubi-Vermis-LiberTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ubi Vermis Liber.app/Ubi Vermis Liber";
+			};
+			name = Release;
+		};
+		9B59A5EF2528D90300DC711A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ubi Vermis LiberUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Estella.Ubi-Vermis-LiberUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ubi Vermis Liber";
+			};
+			name = Debug;
+		};
+		9B59A5F02528D90300DC711A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ubi Vermis LiberUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Estella.Ubi-Vermis-LiberUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ubi Vermis Liber";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B59A5B92528D90200DC711A /* Build configuration list for PBXProject "Ubi Vermis Liber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B59A5E62528D90300DC711A /* Debug */,
+				9B59A5E72528D90300DC711A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B59A5E82528D90300DC711A /* Build configuration list for PBXNativeTarget "Ubi Vermis Liber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B59A5E92528D90300DC711A /* Debug */,
+				9B59A5EA2528D90300DC711A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B59A5EB2528D90300DC711A /* Build configuration list for PBXNativeTarget "Ubi Vermis LiberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B59A5EC2528D90300DC711A /* Debug */,
+				9B59A5ED2528D90300DC711A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B59A5EE2528D90300DC711A /* Build configuration list for PBXNativeTarget "Ubi Vermis LiberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B59A5EF2528D90300DC711A /* Debug */,
+				9B59A5F02528D90300DC711A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B59A5B62528D90200DC711A /* Project object */;
+}
