@@ -3,10 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		188367A41F1ADC5151767448 /* Pods_Ubi_Vermis_Liber_Ubi_Vermis_LiberUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2068CEB1C2E334721A6C62B2 /* Pods_Ubi_Vermis_Liber_Ubi_Vermis_LiberUITests.framework */; };
+		81963189CE4731ECC449EDE5 /* Pods_Ubi_Vermis_LiberTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A448D6D2D8D4BAAC1DD9E8FA /* Pods_Ubi_Vermis_LiberTests.framework */; };
+		9B0C0296252BB2EF00F576FF /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C0295252BB2EF00F576FF /* Chat.swift */; };
+		9B0E46C3252E4DDA0099DD82 /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0E46C2252E4DDA0099DD82 /* MessageBubble.swift */; };
+		9B0F9A2C25324998001A1654 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0F9A2B25324998001A1654 /* K.swift */; };
+		9B32FEBB252D441A00174ECB /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B32FEB9252D441A00174ECB /* MessageCell.swift */; };
+		9B32FEBC252D441A00174ECB /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B32FEB9252D441A00174ECB /* MessageCell.swift */; };
+		9B32FEBD252D441A00174ECB /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B32FEB9252D441A00174ECB /* MessageCell.swift */; };
+		9B32FEBE252D441A00174ECB /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B32FEBA252D441A00174ECB /* MessageCell.xib */; };
+		9B32FEBF252D441A00174ECB /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B32FEBA252D441A00174ECB /* MessageCell.xib */; };
+		9B32FEC0252D441A00174ECB /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B32FEBA252D441A00174ECB /* MessageCell.xib */; };
 		9B59A5C22528D90200DC711A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59A5C12528D90200DC711A /* AppDelegate.swift */; };
 		9B59A5C42528D90200DC711A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59A5C32528D90200DC711A /* SceneDelegate.swift */; };
 		9B59A5C62528D90200DC711A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59A5C52528D90200DC711A /* ContentView.swift */; };
@@ -15,6 +26,35 @@
 		9B59A5CE2528D90300DC711A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B59A5CC2528D90300DC711A /* LaunchScreen.storyboard */; };
 		9B59A5D92528D90300DC711A /* Ubi_Vermis_LiberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59A5D82528D90300DC711A /* Ubi_Vermis_LiberTests.swift */; };
 		9B59A5E42528D90300DC711A /* Ubi_Vermis_LiberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59A5E32528D90300DC711A /* Ubi_Vermis_LiberUITests.swift */; };
+		9B59A5F62528E85C00DC711A /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B59A5F52528E85C00DC711A /* Lato-Thin.ttf */; };
+		9B59A5F72528E85C00DC711A /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B59A5F52528E85C00DC711A /* Lato-Thin.ttf */; };
+		9B59A5F82528E85C00DC711A /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B59A5F52528E85C00DC711A /* Lato-Thin.ttf */; };
+		9B59A5FB2528E87500DC711A /* PatrickHand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B59A5FA2528E87500DC711A /* PatrickHand-Regular.ttf */; };
+		9B59A5FC2528E87500DC711A /* PatrickHand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B59A5FA2528E87500DC711A /* PatrickHand-Regular.ttf */; };
+		9B59A5FD2528E87500DC711A /* PatrickHand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B59A5FA2528E87500DC711A /* PatrickHand-Regular.ttf */; };
+		9B59A6032528F4D800DC711A /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59A6022528F4D800DC711A /* Welcome.swift */; };
+		9B59A6042528F4D800DC711A /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59A6022528F4D800DC711A /* Welcome.swift */; };
+		9B59A6052528F4D800DC711A /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59A6022528F4D800DC711A /* Welcome.swift */; };
+		9B59A60B252A299800DC711A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59A60A252A299800DC711A /* Login.swift */; };
+		9B59A60C252A299800DC711A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59A60A252A299800DC711A /* Login.swift */; };
+		9B59A60D252A299800DC711A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59A60A252A299800DC711A /* Login.swift */; };
+		9B59A60F252A29A500DC711A /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59A60E252A29A500DC711A /* Register.swift */; };
+		9B59A610252A29A500DC711A /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59A60E252A29A500DC711A /* Register.swift */; };
+		9B59A611252A29A500DC711A /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59A60E252A29A500DC711A /* Register.swift */; };
+		9B59A613252A376600DC711A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B59A612252A376600DC711A /* GoogleService-Info.plist */; };
+		9B59A614252A376600DC711A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B59A612252A376600DC711A /* GoogleService-Info.plist */; };
+		9B59A615252A376600DC711A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B59A612252A376600DC711A /* GoogleService-Info.plist */; };
+		9BA2CCBE252BD8B900C061C3 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BA2CCBD252BD8B900C061C3 /* Montserrat-Light.ttf */; };
+		9BA2CCBF252BD8B900C061C3 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BA2CCBD252BD8B900C061C3 /* Montserrat-Light.ttf */; };
+		9BA2CCC0252BD8B900C061C3 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BA2CCBD252BD8B900C061C3 /* Montserrat-Light.ttf */; };
+		9BA2CCC2252BDBAC00C061C3 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2CCC1252BDBAC00C061C3 /* Message.swift */; };
+		9BA2CCC3252BDBAC00C061C3 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2CCC1252BDBAC00C061C3 /* Message.swift */; };
+		9BA2CCC4252BDBAC00C061C3 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2CCC1252BDBAC00C061C3 /* Message.swift */; };
+		9BA2CCC6252BDBC900C061C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59A5C52528D90200DC711A /* ContentView.swift */; };
+		9BA2CCC7252BDBC900C061C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59A5C52528D90200DC711A /* ContentView.swift */; };
+		9BDC0508253D00C80085CF42 /* MessageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC0507253D00C80085CF42 /* MessageManager.swift */; };
+		9BEFB1D0252F9C4A00195B0A /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFB1CF252F9C4A00195B0A /* Detail.swift */; };
+		B77E419775A0C21809178585 /* Pods_Ubi_Vermis_Liber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB674004CE7655D47D8361E /* Pods_Ubi_Vermis_Liber.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +75,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2068CEB1C2E334721A6C62B2 /* Pods_Ubi_Vermis_Liber_Ubi_Vermis_LiberUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ubi_Vermis_Liber_Ubi_Vermis_LiberUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4FA43A84512E413893D824 /* Pods-Ubi Vermis Liber-Ubi Vermis LiberUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ubi Vermis Liber-Ubi Vermis LiberUITests.debug.xcconfig"; path = "Target Support Files/Pods-Ubi Vermis Liber-Ubi Vermis LiberUITests/Pods-Ubi Vermis Liber-Ubi Vermis LiberUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4EBD47F0A1A9B97BA61AC9E9 /* Pods-Ubi Vermis LiberTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ubi Vermis LiberTests.debug.xcconfig"; path = "Target Support Files/Pods-Ubi Vermis LiberTests/Pods-Ubi Vermis LiberTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6167F545E06F6CDFBAE2558B /* Pods-Ubi Vermis LiberTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ubi Vermis LiberTests.release.xcconfig"; path = "Target Support Files/Pods-Ubi Vermis LiberTests/Pods-Ubi Vermis LiberTests.release.xcconfig"; sourceTree = "<group>"; };
+		9B0C0295252BB2EF00F576FF /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		9B0E46C2252E4DDA0099DD82 /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		9B0F9A2B25324998001A1654 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		9B32FEB9252D441A00174ECB /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		9B32FEBA252D441A00174ECB /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		9B59A5BE2528D90200DC711A /* Ubi Vermis Liber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ubi Vermis Liber.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B59A5C12528D90200DC711A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B59A5C32528D90200DC711A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +98,21 @@
 		9B59A5DF2528D90300DC711A /* Ubi Vermis LiberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ubi Vermis LiberUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B59A5E32528D90300DC711A /* Ubi_Vermis_LiberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ubi_Vermis_LiberUITests.swift; sourceTree = "<group>"; };
 		9B59A5E52528D90300DC711A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B59A5F52528E85C00DC711A /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		9B59A5FA2528E87500DC711A /* PatrickHand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PatrickHand-Regular.ttf"; sourceTree = "<group>"; };
+		9B59A6022528F4D800DC711A /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		9B59A60A252A299800DC711A /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		9B59A60E252A29A500DC711A /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		9B59A612252A376600DC711A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9BA2CCBD252BD8B900C061C3 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		9BA2CCC1252BDBAC00C061C3 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		9BDC0507253D00C80085CF42 /* MessageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageManager.swift; sourceTree = "<group>"; };
+		9BEFB1CF252F9C4A00195B0A /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		A448D6D2D8D4BAAC1DD9E8FA /* Pods_Ubi_Vermis_LiberTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ubi_Vermis_LiberTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB674004CE7655D47D8361E /* Pods_Ubi_Vermis_Liber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ubi_Vermis_Liber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE4DC16C423D2FAC96802E1 /* Pods-Ubi Vermis Liber-Ubi Vermis LiberUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ubi Vermis Liber-Ubi Vermis LiberUITests.release.xcconfig"; path = "Target Support Files/Pods-Ubi Vermis Liber-Ubi Vermis LiberUITests/Pods-Ubi Vermis Liber-Ubi Vermis LiberUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EC9E08C24A415819214DA26C /* Pods-Ubi Vermis Liber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ubi Vermis Liber.release.xcconfig"; path = "Target Support Files/Pods-Ubi Vermis Liber/Pods-Ubi Vermis Liber.release.xcconfig"; sourceTree = "<group>"; };
+		FA57A0B22125B7BB181F836E /* Pods-Ubi Vermis Liber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ubi Vermis Liber.debug.xcconfig"; path = "Target Support Files/Pods-Ubi Vermis Liber/Pods-Ubi Vermis Liber.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B77E419775A0C21809178585 /* Pods_Ubi_Vermis_Liber.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81963189CE4731ECC449EDE5 /* Pods_Ubi_Vermis_LiberTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +136,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188367A41F1ADC5151767448 /* Pods_Ubi_Vermis_Liber_Ubi_Vermis_LiberUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9917825A2DF37013726DFDFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBB674004CE7655D47D8361E /* Pods_Ubi_Vermis_Liber.framework */,
+				2068CEB1C2E334721A6C62B2 /* Pods_Ubi_Vermis_Liber_Ubi_Vermis_LiberUITests.framework */,
+				A448D6D2D8D4BAAC1DD9E8FA /* Pods_Ubi_Vermis_LiberTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B0E46C1252E4C580099DD82 /* MessageBubbble */ = {
+			isa = PBXGroup;
+			children = (
+				9B0E46C2252E4DDA0099DD82 /* MessageBubble.swift */,
+				9B32FEBA252D441A00174ECB /* MessageCell.xib */,
+				9B32FEB9252D441A00174ECB /* MessageCell.swift */,
+			);
+			path = MessageBubbble;
+			sourceTree = "<group>";
+		};
 		9B59A5B52528D90200DC711A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +170,8 @@
 				9B59A5D72528D90300DC711A /* Ubi Vermis LiberTests */,
 				9B59A5E22528D90300DC711A /* Ubi Vermis LiberUITests */,
 				9B59A5BF2528D90200DC711A /* Products */,
+				AA66ED4DE27CBA35DF19DF2D /* Pods */,
+				9917825A2DF37013726DFDFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +190,13 @@
 			children = (
 				9B59A5C12528D90200DC711A /* AppDelegate.swift */,
 				9B59A5C32528D90200DC711A /* SceneDelegate.swift */,
-				9B59A5C52528D90200DC711A /* ContentView.swift */,
+				9B59A5F92528E86100DC711A /* Fonts */,
+				9BA2CCC8252BDBD800C061C3 /* Models */,
+				9BA2CCC5252BDBBC00C061C3 /* Views */,
 				9B59A5C72528D90300DC711A /* Assets.xcassets */,
 				9B59A5CC2528D90300DC711A /* LaunchScreen.storyboard */,
 				9B59A5CF2528D90300DC711A /* Info.plist */,
+				9B59A612252A376600DC711A /* GoogleService-Info.plist */,
 				9B59A5C92528D90300DC711A /* Preview Content */,
 			);
 			path = "Ubi Vermis Liber";
@@ -136,6 +228,53 @@
 			path = "Ubi Vermis LiberUITests";
 			sourceTree = "<group>";
 		};
+		9B59A5F92528E86100DC711A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9B59A5F52528E85C00DC711A /* Lato-Thin.ttf */,
+				9BA2CCBD252BD8B900C061C3 /* Montserrat-Light.ttf */,
+				9B59A5FA2528E87500DC711A /* PatrickHand-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9BA2CCC5252BDBBC00C061C3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9B59A5C52528D90200DC711A /* ContentView.swift */,
+				9BEFB1CF252F9C4A00195B0A /* Detail.swift */,
+				9B59A60A252A299800DC711A /* Login.swift */,
+				9B59A6022528F4D800DC711A /* Welcome.swift */,
+				9B59A60E252A29A500DC711A /* Register.swift */,
+				9B0C0295252BB2EF00F576FF /* Chat.swift */,
+				9B0E46C1252E4C580099DD82 /* MessageBubbble */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9BA2CCC8252BDBD800C061C3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9BA2CCC1252BDBAC00C061C3 /* Message.swift */,
+				9B0F9A2B25324998001A1654 /* K.swift */,
+				9BDC0507253D00C80085CF42 /* MessageManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA66ED4DE27CBA35DF19DF2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA57A0B22125B7BB181F836E /* Pods-Ubi Vermis Liber.debug.xcconfig */,
+				EC9E08C24A415819214DA26C /* Pods-Ubi Vermis Liber.release.xcconfig */,
+				3F4FA43A84512E413893D824 /* Pods-Ubi Vermis Liber-Ubi Vermis LiberUITests.debug.xcconfig */,
+				DAE4DC16C423D2FAC96802E1 /* Pods-Ubi Vermis Liber-Ubi Vermis LiberUITests.release.xcconfig */,
+				4EBD47F0A1A9B97BA61AC9E9 /* Pods-Ubi Vermis LiberTests.debug.xcconfig */,
+				6167F545E06F6CDFBAE2558B /* Pods-Ubi Vermis LiberTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +282,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B59A5E82528D90300DC711A /* Build configuration list for PBXNativeTarget "Ubi Vermis Liber" */;
 			buildPhases = (
+				54923569BEBC0EF719C60E76 /* [CP] Check Pods Manifest.lock */,
 				9B59A5BA2528D90200DC711A /* Sources */,
 				9B59A5BB2528D90200DC711A /* Frameworks */,
 				9B59A5BC2528D90200DC711A /* Resources */,
+				690640414F31930E5CE14D68 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +301,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B59A5EB2528D90300DC711A /* Build configuration list for PBXNativeTarget "Ubi Vermis LiberTests" */;
 			buildPhases = (
+				B7806FFDC637BB13521D4214 /* [CP] Check Pods Manifest.lock */,
 				9B59A5D02528D90300DC711A /* Sources */,
 				9B59A5D12528D90300DC711A /* Frameworks */,
 				9B59A5D22528D90300DC711A /* Resources */,
@@ -178,9 +320,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B59A5EE2528D90300DC711A /* Build configuration list for PBXNativeTarget "Ubi Vermis LiberUITests" */;
 			buildPhases = (
+				0C3D4A4CDBD453411ABE7922 /* [CP] Check Pods Manifest.lock */,
 				9B59A5DB2528D90300DC711A /* Sources */,
 				9B59A5DC2528D90300DC711A /* Frameworks */,
 				9B59A5DD2528D90300DC711A /* Resources */,
+				B362B0E5A4BE6E0D0F24D68F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -240,7 +384,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BA2CCBE252BD8B900C061C3 /* Montserrat-Light.ttf in Resources */,
 				9B59A5CE2528D90300DC711A /* LaunchScreen.storyboard in Resources */,
+				9B59A5F62528E85C00DC711A /* Lato-Thin.ttf in Resources */,
+				9B59A613252A376600DC711A /* GoogleService-Info.plist in Resources */,
+				9B59A5FB2528E87500DC711A /* PatrickHand-Regular.ttf in Resources */,
+				9B32FEBE252D441A00174ECB /* MessageCell.xib in Resources */,
 				9B59A5CB2528D90300DC711A /* Preview Assets.xcassets in Resources */,
 				9B59A5C82528D90300DC711A /* Assets.xcassets in Resources */,
 			);
@@ -250,6 +399,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B32FEBF252D441A00174ECB /* MessageCell.xib in Resources */,
+				9BA2CCBF252BD8B900C061C3 /* Montserrat-Light.ttf in Resources */,
+				9B59A5F72528E85C00DC711A /* Lato-Thin.ttf in Resources */,
+				9B59A5FC2528E87500DC711A /* PatrickHand-Regular.ttf in Resources */,
+				9B59A614252A376600DC711A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,19 +411,137 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B32FEC0252D441A00174ECB /* MessageCell.xib in Resources */,
+				9BA2CCC0252BD8B900C061C3 /* Montserrat-Light.ttf in Resources */,
+				9B59A5F82528E85C00DC711A /* Lato-Thin.ttf in Resources */,
+				9B59A5FD2528E87500DC711A /* PatrickHand-Regular.ttf in Resources */,
+				9B59A615252A376600DC711A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C3D4A4CDBD453411ABE7922 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ubi Vermis Liber-Ubi Vermis LiberUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54923569BEBC0EF719C60E76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ubi Vermis Liber-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		690640414F31930E5CE14D68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ubi Vermis Liber/Pods-Ubi Vermis Liber-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ubi Vermis Liber/Pods-Ubi Vermis Liber-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ubi Vermis Liber/Pods-Ubi Vermis Liber-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B362B0E5A4BE6E0D0F24D68F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ubi Vermis Liber-Ubi Vermis LiberUITests/Pods-Ubi Vermis Liber-Ubi Vermis LiberUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ubi Vermis Liber-Ubi Vermis LiberUITests/Pods-Ubi Vermis Liber-Ubi Vermis LiberUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ubi Vermis Liber-Ubi Vermis LiberUITests/Pods-Ubi Vermis Liber-Ubi Vermis LiberUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7806FFDC637BB13521D4214 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ubi Vermis LiberTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9B59A5BA2528D90200DC711A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B59A60F252A29A500DC711A /* Register.swift in Sources */,
+				9B59A6032528F4D800DC711A /* Welcome.swift in Sources */,
+				9B0C0296252BB2EF00F576FF /* Chat.swift in Sources */,
+				9B59A60B252A299800DC711A /* Login.swift in Sources */,
 				9B59A5C22528D90200DC711A /* AppDelegate.swift in Sources */,
+				9BA2CCC2252BDBAC00C061C3 /* Message.swift in Sources */,
+				9BDC0508253D00C80085CF42 /* MessageManager.swift in Sources */,
 				9B59A5C42528D90200DC711A /* SceneDelegate.swift in Sources */,
+				9B0E46C3252E4DDA0099DD82 /* MessageBubble.swift in Sources */,
 				9B59A5C62528D90200DC711A /* ContentView.swift in Sources */,
+				9B0F9A2C25324998001A1654 /* K.swift in Sources */,
+				9BEFB1D0252F9C4A00195B0A /* Detail.swift in Sources */,
+				9B32FEBB252D441A00174ECB /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +549,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B59A60C252A299800DC711A /* Login.swift in Sources */,
+				9B59A6042528F4D800DC711A /* Welcome.swift in Sources */,
+				9BA2CCC6252BDBC900C061C3 /* ContentView.swift in Sources */,
+				9BA2CCC3252BDBAC00C061C3 /* Message.swift in Sources */,
+				9B59A610252A29A500DC711A /* Register.swift in Sources */,
 				9B59A5D92528D90300DC711A /* Ubi_Vermis_LiberTests.swift in Sources */,
+				9B32FEBC252D441A00174ECB /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +563,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B59A60D252A299800DC711A /* Login.swift in Sources */,
+				9B59A6052528F4D800DC711A /* Welcome.swift in Sources */,
+				9BA2CCC7252BDBC900C061C3 /* ContentView.swift in Sources */,
+				9BA2CCC4252BDBAC00C061C3 /* Message.swift in Sources */,
+				9B59A611252A29A500DC711A /* Register.swift in Sources */,
 				9B59A5E42528D90300DC711A /* Ubi_Vermis_LiberUITests.swift in Sources */,
+				9B32FEBD252D441A00174ECB /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +716,7 @@
 		};
 		9B59A5E92528D90300DC711A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA57A0B22125B7BB181F836E /* Pods-Ubi Vermis Liber.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +736,7 @@
 		};
 		9B59A5EA2528D90300DC711A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC9E08C24A415819214DA26C /* Pods-Ubi Vermis Liber.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +756,7 @@
 		};
 		9B59A5EC2528D90300DC711A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EBD47F0A1A9B97BA61AC9E9 /* Pods-Ubi Vermis LiberTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +778,7 @@
 		};
 		9B59A5ED2528D90300DC711A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6167F545E06F6CDFBAE2558B /* Pods-Ubi Vermis LiberTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +800,7 @@
 		};
 		9B59A5EF2528D90300DC711A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F4FA43A84512E413893D824 /* Pods-Ubi Vermis Liber-Ubi Vermis LiberUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +820,7 @@
 		};
 		9B59A5F02528D90300DC711A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAE4DC16C423D2FAC96802E1 /* Pods-Ubi Vermis Liber-Ubi Vermis LiberUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
