@@ -53,7 +53,6 @@
 		9BA2CCC6252BDBC900C061C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59A5C52528D90200DC711A /* ContentView.swift */; };
 		9BA2CCC7252BDBC900C061C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59A5C52528D90200DC711A /* ContentView.swift */; };
 		9BDC0508253D00C80085CF42 /* MessageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC0507253D00C80085CF42 /* MessageManager.swift */; };
-		9BEFB1D0252F9C4A00195B0A /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFB1CF252F9C4A00195B0A /* Detail.swift */; };
 		B77E419775A0C21809178585 /* Pods_Ubi_Vermis_Liber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB674004CE7655D47D8361E /* Pods_Ubi_Vermis_Liber.framework */; };
 /* End PBXBuildFile section */
 
@@ -107,7 +106,6 @@
 		9BA2CCBD252BD8B900C061C3 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
 		9BA2CCC1252BDBAC00C061C3 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		9BDC0507253D00C80085CF42 /* MessageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageManager.swift; sourceTree = "<group>"; };
-		9BEFB1CF252F9C4A00195B0A /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
 		A448D6D2D8D4BAAC1DD9E8FA /* Pods_Ubi_Vermis_LiberTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ubi_Vermis_LiberTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB674004CE7655D47D8361E /* Pods_Ubi_Vermis_Liber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ubi_Vermis_Liber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE4DC16C423D2FAC96802E1 /* Pods-Ubi Vermis Liber-Ubi Vermis LiberUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ubi Vermis Liber-Ubi Vermis LiberUITests.release.xcconfig"; path = "Target Support Files/Pods-Ubi Vermis Liber-Ubi Vermis LiberUITests/Pods-Ubi Vermis Liber-Ubi Vermis LiberUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -242,7 +240,6 @@
 			isa = PBXGroup;
 			children = (
 				9B59A5C52528D90200DC711A /* ContentView.swift */,
-				9BEFB1CF252F9C4A00195B0A /* Detail.swift */,
 				9B59A60A252A299800DC711A /* Login.swift */,
 				9B59A6022528F4D800DC711A /* Welcome.swift */,
 				9B59A60E252A29A500DC711A /* Register.swift */,
@@ -540,7 +537,6 @@
 				9B0E46C3252E4DDA0099DD82 /* MessageBubble.swift in Sources */,
 				9B59A5C62528D90200DC711A /* ContentView.swift in Sources */,
 				9B0F9A2C25324998001A1654 /* K.swift in Sources */,
-				9BEFB1D0252F9C4A00195B0A /* Detail.swift in Sources */,
 				9B32FEBB252D441A00174ECB /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

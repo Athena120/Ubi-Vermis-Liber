@@ -45,15 +45,15 @@ struct ContentView: View {
                         .padding(.vertical)
                     Divider()
                     
-                    NavigationLink(destination: Detail(), label: {
-                        Text("  +New Book+  ")
-                            .foregroundColor(.white)
-                            .overlay(
-                                Rectangle()
-                                    .stroke(Color.white, lineWidth: 1)
-                                
-                        )
-                    })
+//                    NavigationLink(destination: Detail(), label: {
+//                        Text("  +New Book+  ")
+//                            .foregroundColor(.white)
+//                            .overlay(
+//                                Rectangle()
+//                                    .stroke(Color.white, lineWidth: 1)
+//                                
+//                        )
+//                    })
                     List {
                         ListView(title: "Lord of the flies")
                         
